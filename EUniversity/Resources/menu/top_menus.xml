@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+     android:id="@+id/menu_about"
+     android:showAsAction="never"
+     android:title="អំពីកម្មវិធី" />
+  <item 
+     android:id="@+id/action_websearch"
+     android:icon="@drawable/ic_menu_search_holo_dark"
+     android:showAsAction="ifRoom|withText" />
+ 
+  <item
+    android:id="@+id/nav_SkillInfo"
+    android:title="ពត៌មានអំពីជំនាញ"/>   
+  <item
+    android:id="@+id/nav_School"
+    android:title="ពត៌មានអំពីសកលវិទ្យាល័យ"/>  
+  <item
+android:id="@+id/nav_ProvinceSchool"
+android:title="ពត៌មានអំពីសកលវិទ្យាល័យតាមបណ្ដាខេត្ត"/>  
+ <item
+android:id="@+id/nav_Exit"
+android:title="ចាកចេញ"/>      
+</menu>
