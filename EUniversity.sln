@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EUniversity", "EUniversity\EUniversity.csproj", "{4F2D70D9-089D-4ED0-BD0E-027D37569A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Unversity_Web", "E_Unversity_Web\E_Unversity_Web.csproj", "{09594569-F987-4AE9-9AC8-CB5B28405687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{4F2D70D9-089D-4ED0-BD0E-027D37569A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F2D70D9-089D-4ED0-BD0E-027D37569A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F2D70D9-089D-4ED0-BD0E-027D37569A3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{09594569-F987-4AE9-9AC8-CB5B28405687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09594569-F987-4AE9-9AC8-CB5B28405687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09594569-F987-4AE9-9AC8-CB5B28405687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09594569-F987-4AE9-9AC8-CB5B28405687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
