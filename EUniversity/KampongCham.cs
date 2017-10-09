@@ -23,12 +23,12 @@ namespace EUniversity
             SetActionBar(toolbar);
             ActionBar.Title = "ខេត្តកំពង់ចាម";
         }
-        //
 
-       // did you installed the git extenction
-           // yes ready
-           
-          //  ot ey t ber busy tver sen jos 
+        /// <summary>
+        /// Hello worl
+        /// </summary>
+        /// <param name="menu"></param>
+        /// <returns></returns>
         
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
