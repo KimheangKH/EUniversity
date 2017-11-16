@@ -4,7 +4,9 @@ using Android.OS;
 using Android.Views;
 using Android.Content;
 using System;
-
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 namespace EUniversity
 {
     [Activity(Label = "EUniversity", Icon = "@drawable/splash")]
@@ -17,9 +19,10 @@ namespace EUniversity
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
+            AppCenter.Start("873782ef-af58-439d-af68-b7a10962aa3b",
+                   typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
-             SetContentView (Resource.Layout.Home);
+            SetContentView (Resource.Layout.Home);
             //var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             //SetActionBar(toolbar);
             //ActionBar.Title = "EUniversity";
